@@ -27,8 +27,10 @@ button {
 #header-items {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-bottom: 17.29px;
   margin-top: 15.71px;
+  height: 100%;
 }
 .header-item {
   color: #ffffff;
@@ -41,6 +43,7 @@ button {
   border-radius: 2px;
   cursor: pointer;
   scale: 1.1;
+  background-color: #dd4440;
 }
 #intro {
   background-image: url(/public/about.png);
@@ -230,13 +233,11 @@ button {
   border: none;
   border-radius: 2px;
   height: 32px;
-
 }
 #email {
   border: none;
   border-radius: 2px;
   height: 32px;
-
 }
 #form-msg-container {
   display: flex;
@@ -262,11 +263,12 @@ button {
   border-radius: 5px;
   font-size: 18px;
   color: #2e2e2e;
+  background-color: #ffffff;
 }
 #button-submit:hover {
-    background-color: rgb(200, 200, 200);
-    border:#ffffff solid 1px;
-    scale:1.1;
+  background-color: rgb(200, 200, 200);
+  border: #ffffff solid 1px;
+  scale: 1.1;
 }
 #button-submit:hover > img {
 }
